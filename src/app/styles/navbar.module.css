@@ -1,0 +1,46 @@
+.head {
+  height: 80px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+}
+
+.div1 {
+  margin-top: 8px;
+}
+
+.img {
+  height: 50px;
+  width: 50px;
+  border-radius: 9999px;
+  margin-left: 50px;
+}
+
+.div2 {
+  margin-right: 112px;
+  font-weight: 700;
+  font-size: 20px;
+}
+.li {
+  color: white;
+  padding-right: 80px;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 640px) {
+  .img {
+    margin-left: 10px;
+  }
+  .li {
+    padding-right: 20px;
+  }
+  .div2 {
+    margin-left: 0px;
+  }
+}
